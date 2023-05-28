@@ -1,8 +1,7 @@
-import React, { useMemo } from 'react'
 import mainPageLogo from './assets/main_page_logo.png'
 import { ThemeProvider } from '@mui/material/styles'
 import GlobalTheme from './GlobalTheme'
-import { Box, Button, Grid, Theme, Typography, createTheme, useMediaQuery } from '@mui/material'
+import { Box, Grid, Typography } from '@mui/material'
 
 function App() {
   return (
